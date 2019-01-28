@@ -13,3 +13,7 @@
  * Section 1 : Header
  * =======================================================
  */
+
+#grad {
+  background-image: linear-gradient(to right, pink , purple);  * changer le nom du background/image
+}
