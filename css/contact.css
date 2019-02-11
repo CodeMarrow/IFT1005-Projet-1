@@ -1,20 +1,61 @@
 /**
- * Table of contents
- * =======================================================
- *   
- *   1. Header
- *   2. Main Navigation
- *   
- * =======================================================
- **/
+ * Table of Content
+ *
+ *  > General
+ *  > Header
+ *  > Feature
+ *  > Footer
+ * ============================= */
+
+/* General
+   ============================= */
+
+h1{
+    text-align: center;
+    font-size: 40px;
 
 
-/**
- * Section 1 : Header
- * =======================================================
- 
-
- 
- form 1:
+}
 
 
+   body {
+    margin: 0;
+  }
+
+  
+  /* Header
+     ============================= */
+  
+  header {
+    height: 425px;
+    padding-top: 60px;
+
+  }
+  
+  /* Formulaire
+     ============================= */
+  
+  
+  #formulaire {
+
+    height: 1000px;
+    padding-top: 40px;
+    background-color: rgb(240, 240, 240);
+  }
+
+  /* Feature
+     ============================= */
+
+  #feature {
+    height: 115px;
+    background-color: #00091a;
+  }
+
+    /* Footer
+     ============================= */
+
+  footer{
+      height: 50px;
+      text-align: center;
+  }
+  
