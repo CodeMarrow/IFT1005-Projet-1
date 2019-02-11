@@ -3,30 +3,66 @@
     <head> 
         <meta charset="utf-8"> 
         <title>Contact - Band</title> 
-        <link rel="stylesheet" type="text/css" href="contact.css"> 
+        <link rel="stylesheet" type="text/css" href="./css/contact.css"> 
     </head>     
     <body> 
+        
+<!-- Header -->
+
         <header>
-            <h1 align=center>Contact details</h1> <!-- pink bar under set apart -->
-                <hr width="10%">
+            <h1>Contact details</h1> <!-- pink bar under set apart -->
+                <hr width="5%" size="4">           
+
+                <h2>City Hall Park, 
+                    New York, NY 10007, USA     (1239) 222.444 
+                    example@example.org      Mon-Fri: 8:00 - 16:00 
+                    Sat-Sun: Closed</h2>
         </header>
 
+<!-- Closing : Header -->
+
+
+    <section id="formulaire"> 
         
+        <h1>Get in touch</h1>
+        <hr width="5%" size="4">
+
+        <form name="Form 1" action="https://www.w3schools.com/action_page.php" method="POST">
+        Your Name (required)<input type="text" name="name" required>
+        Your Email (required)<input type="email" name="email" auto-complete="on" required>
+        Phone <input type="tel" pattern="$#@5325325" name="phone">
+        Pick your service <select name="service">
+            <option value="1" selected>Consulting</option>
+            <option value="2">Planning</option>
+            <option value="3">Nutrition</option>
+            </select>
+        Subject <input type="text" name="subject">
+        Your Message <input type="text" name="yourmessage">
         
-        <form name="Form 1">
-        Your Name (required)<input type="text" name="name"> &nbsp;
-        Your Email (required)<input type="text" name="email"> &nbsp;
-        Phone <input type="text" name="phone">
+        <button type="submit" value="submit" name="send">Send</button>
         
         </form>
         
-        <a> href="Terms&conditions </a> | <a>Privacy policy </a> <!-- airi logo + 4 boutons social media -->
+    </section> 
 
+<!-- Feature -->
+    
+        <section id="feature">
+                <img src="./images/airiband..png">
+                <a href="contact.html">Terms&conditions</a> | <a href="contact.html">Privacy policy</a>    <!-- airi logo + 4 boutons social media -->
+    
+        </section>
+
+<!-- Closing : Feature -->   
+
+<!-- Footer -->
         <footer>
-            <p> <i>PROUDLY POWERED BY WORDPRESS | THEME: AIRI BY ATHEMES. </i>
-              </p>
-          </footer>
+            
+            <i>PROUDLY POWERED BY WORDPRESS | THEME: AIRI BY ATHEMES. </i>
+             
+        </footer>
 
-
+<!-- Closing : Footer --> 
+    
     </body>     
 </html>
