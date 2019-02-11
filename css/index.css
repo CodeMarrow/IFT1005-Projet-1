@@ -14,6 +14,26 @@
  * =======================================================
  */
 
-#grad {
-  background-image: linear-gradient(to right, pink , purple);  * changer le nom du background/image
+#body{
+   background-color: black;
+   
 }
+
+ 
+#nav{
+   text-align: "right";
+
+
+}
+
+#header {
+   text-align: center;
+   display: flex;
+}
+
+#header ul {
+ list-style: none;
+ display: flex;
+
+}
+
