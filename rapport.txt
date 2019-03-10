@@ -1,11 +1,14 @@
-rapport
+Rapport
 
 Noms et matricule: Alexandre-Sereyroeut Keo     992086
 
-addresse vers le site:
+adresse vers le site:
 
-addresse vers le site web original: https://demo.athemes.com/airi-band/
+adresse vers le site web original: https://demo.athemes.com/airi-band/
 
-Description du travail:
+Description du travail:	Recréer les 2 pages, home et contact, du site web mentionné ci dessus.
 
 Les difficultés:
+
+Créer le cercle border radius et centrer les icônes.
+Espacement des éléments du formulaire
