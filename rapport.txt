@@ -2,13 +2,14 @@ Rapport
 
 Noms et matricule: Alexandre-Sereyroeut Keo     992086
 
-adresse vers le site:
+adresse vers le site: https://www.webdepot.umontreal.ca/Usagers/p1155179/MonDepotPublic/projet1-ift1005/projet1-ift1005
 
 adresse vers le site web original: https://demo.athemes.com/airi-band/
 
-Description du travail:	Recréer les 2 pages, home et contact, du site web mentionné ci dessus.
+Description du travail:	Reproduire 2 pages, home(index) et contact, du site web mentionné ci dessus à l'aide de HTML et CSS.
 
 Les difficultés:
 
-Créer le cercle border radius et centrer les icônes.
-Espacement des éléments du formulaire
+- Créer le cercle border radius
+- Centrer les icônes.
+- Espacement des éléments du formulaire
