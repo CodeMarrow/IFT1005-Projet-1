@@ -131,7 +131,7 @@ form{
     width: 80%;
 }
 
-.first-line, .second-line, .third_line, .submit-line {
+.first-line, .second-line, .third_line{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -196,7 +196,9 @@ button{
 }
 
 .icon2{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 36px;
     height: 36px;
     border: 2px solid #909090;
