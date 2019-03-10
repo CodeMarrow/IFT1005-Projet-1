@@ -139,6 +139,14 @@ form{
     margin-bottom: 20px;
 }
 
+.first-line input[type=tel] {
+    width: 91%;
+}
+
+.second-line input[type=text]{
+    width: 94%;
+}
+
 button{
     background-color: rgb(255, 0, 242);
     border-radius: 25px;
