@@ -15,5 +15,4 @@ Les difficultés:
 - Espacement des éléments du formulaire
 - Aligner, centre et positionner les éléments de la barre de navigation
 - hierarchiser les differents elements et selecteur dans le css, les formattages se genent par moment
-- apres de multiples reprises, lorsque que l'on clique sur la page contact a partir de index html sur le webdepot, le formattage ne se fait pas correctement. Mais il fonctionne, lorsque l'on ouvre html localement
 
