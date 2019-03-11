@@ -1,6 +1,6 @@
 Rapport
 
-Noms et matricule: Alexandre-Sereyroeut Keo     992086
+Noms et matricule: Alexandre-Sereyroeut Keo     992086 .  Ismael Coulibaly:20083932
 
 adresse vers le site: https://www.webdepot.umontreal.ca/Usagers/p1155179/MonDepotPublic/projet1-ift1005/projet1-ift1005
 
@@ -13,3 +13,6 @@ Les difficultés:
 - Créer le cercle border radius
 - Centrer les icônes.
 - Espacement des éléments du formulaire
+- Aligner, centre et positionner les éléments de la barre de navigation
+- hierarchiser les differents elements et selecteur dans le css, les formattages se genent par moment
+
