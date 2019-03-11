@@ -1,12 +1,16 @@
-b/**
+/**
  * Table of contents
  * =======================================================
  *   
  *   1. Header/NavBar
  *   2. Section 1:MUSIC CAN CHANGE THE WORLD
- *   3. Section 3:Discorgaphy
- * 
- *   
+ *   3. Section 2:Discorgaphy
+ *   4. Section 3:Next Events
+ *   5. Section 4:Video
+ *   6. Section 5:Photo gallery
+ *   7. Feature
+ *
+ *
  * =======================================================
  **/
 @font-face{
@@ -68,8 +72,7 @@ width: 45%;
  * * Section 1:MUSIC CAN CHANGE THE WORLD
  * =======================================================
  */
-
- #section-titre{
+#section-titre{
   width: 100%;
   min-height: 100vh;
 
@@ -96,6 +99,7 @@ h2{
 
 
 #section-titre button {
+  
   padding: 30px;
   cursor: pointer;
   border-radius: 25px 25px 25px 25px;
@@ -142,7 +146,7 @@ input[type=text] {
  * =======================================================
  */
 
- #section1{
+#section1{
   background-color: #090c25;
   padding: 90px 0px 90px 0px;
   width: 100%;
@@ -206,19 +210,18 @@ ul.discography>div>li{
  * =======================================================
  */
 
+ /**
+ * Section 3: Next Events
+ * =======================================================
+ */
 
- /*=======================fin============================*/
-
-
-
-#NextEvents{
+ #NextEvents{
   background-image: url(http://demo.athemes.com/atu-band/wp-content/uploads/sites/90/2018/07/Layer-49883.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding: 90px 0px 90px 0px;
-    position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0px 90px 0px;
+  position: relative;
 }
 
 .nextEvent li{
@@ -233,7 +236,8 @@ ul.discography>div>li{
 .event-container{
   flex: 1;
 }
-h4{
+.event-container h4 a{
+  color: white;
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
@@ -273,15 +277,24 @@ h4{
   
   padding: 15px 45px 15px 45px;
 }
+/**
+ * FIN Section 2 
+ * =======================================================
+ */
+
+/**
+ * Sectione 3 : video
+ * =======================================================
+ */
 
 
-
+ 
 #video{
   width: 100%;
-  min-height: 100vh;
+  max-height: 100vh;
 
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
   justify-content: center;
   background:   linear-gradient(90deg, #fe4291,transparent,#7b47ff),url(http://demo.athemes.com/atu-band/wp-content/uploads/sites/90/2018/07/Layer-49888.jpg);
@@ -291,58 +304,102 @@ h4{
   padding: 145px 0px 145px 0px;
   
 }
-
-.video-container{
-   height: auto;
-    width: 100%;
-    top: auto;
-    left: auto;
-    position: absolute;
-    align-items: center;
-
-}
-
-.video{
-
-}
-
-
-.videoTitle{
+#video h2{
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    clear: both;
-    color: #191919;
-    font-size: 1.25rem;
-
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  text-align: center;
 }
 
-
-#photoGallery ul li{
-   padding: 10px;
-  margin-bottom: 5px;
+.video-container div{
   display: flex;
   align-items: center;
-  
+  justify-content: center;
+}
+.felementor-custom-embed-play i ,.elementor-screen-only{
+  color: white;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+;}
+h5{
+  display: block;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  text-align: center;
+
 }
 
+.elementor-custom-embed-play{
+
+}
+
+/**
+ * FIN Section 3 : video
+ * =======================================================
+ */
+
+ /**
+ * Section 4 : photo Gallery
+ * =======================================================
+ */
+
+ #photoGallery{
+    background-color:#090c25;
+    margin-top: 0;
+    display:inline-block;
+
+ }
+
+ #photoGallery ol li{
+   font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  display: flex;
+  color:white;
+  
+ }
 .photo-container{
-    display: block;
-   
-    margin-right: 520px;
+  flex: 1;
+}
+.photo-container h4 a{
+  color: white;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
     
+}
+.photoGallery{
+   width: 100%;
+  padding: 0px 0px 0px 0px;
+    margin-bottom: 30px;
+}
 
+.photoGallery img{
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  height: 228px;
+  border: none;
+  margin: 0;
    
   
 
 }
+/**
+ * FIN Section 4
+ * =======================================================
+ */
 
-/* Feature
+
+ 
+/*  Section 5: Feature
  ============================= */
 
  #feature {
   height: 100px;
   background-color: #00091a;
   color: steelblue;
+  display: flex;
+  align-items: center;
 }
 
 .logo2{
@@ -358,6 +415,12 @@ h4{
 
 #feature li {
   display: inline-block;
+}
+#feature ul li a{
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+ 
 }
 
 .social a{
@@ -397,3 +460,6 @@ footer p{
 footer{
   height: 30px;  
 }
+
+
+ /*=======================fin============================*/
